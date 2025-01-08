@@ -1,0 +1,16 @@
+html{
+    min-height:100%;
+    min-width:100%;
+}
+#ContainSmall{
+    color:black;
+    bottom:0px;
+    height:111px;
+}
+#bottom{
+    position:absolute;
+    bottom: 55.5px;
+    left: 123px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
