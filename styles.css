@@ -3,9 +3,11 @@ html{
     min-width:100%;
 }
 #ContainSmall{
-    color:black;
+    background-color:black;
+    position:absolute;
     bottom:0px;
     height:111px;
+    width:100vh;
 }
 #bottom{
     position:absolute;
@@ -13,4 +15,5 @@ html{
     left: 123px;
     font-size: 16px;
     font-family: 'Montserrat';
+    color:white;
 }
