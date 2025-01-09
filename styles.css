@@ -3,12 +3,14 @@ html{
     min-width:100%;
 }
 .nav{
- display: grid;
- grid-template-columns: repeat(12, minmax(0, 1fr));
- padding-top: 99px;
- padding-bottom:46px;
+ display: flex;
+ /* grid-template-columns: repeat(12, minmax(0, 1fr)); */
+ padding-top: 63px;
+ padding-bottom:38px;
  margin-left: 120px;
  margin-right: 121px;
+ flex-direction: row;
+ justify-content: space-between;
 
 }
 .brand-logo{
@@ -23,6 +25,6 @@ html{
     padding-top:16px;
     padding-bottom:4px;
     display:flex;
-    flex-direction:column;
-    justify-content: space-evenly;    
+    flex-direction:row;
+    justify-content: space-between;    
 }
